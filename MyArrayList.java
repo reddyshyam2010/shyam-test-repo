@@ -47,6 +47,10 @@ public class MyArrayList {
     public int size(){
         return actSize;
     }
+	
+	/**
+	commented
+	**/
      
     private void increaseListSize(){
         myStore = Arrays.copyOf(myStore, myStore.length*2);
